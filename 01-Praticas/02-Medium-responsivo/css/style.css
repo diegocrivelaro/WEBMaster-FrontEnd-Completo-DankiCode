@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    margin: 15px;
+    padding-bottom: auto;
+    background-color: #292e30;
+}
+
+.borda{
+    border: rgb(255, 255, 255) 5px;
+    border-style: solid;
+    padding: 2%;
+    overflow: auto;
+}
+
+.artigo h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(100 204 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style:normal; /* Define se ela está em itálico */
+    font-weight:600; /* Grossura das linhas */
+    font-variant:small-caps;
+}
+
+.artigo p{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal; /* Define se ela está em itálico */
+    font-weight: 400; /* Grossura das linhas */
+    line-height: 25px; /* Espaçamento das linhas */
+    color: #f8f4ee;
+}
