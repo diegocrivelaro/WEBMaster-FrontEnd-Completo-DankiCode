@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+ORDEM DO CSS 
+1 - Quanto mais específico for a estilização do elemento, maior será sua prioridade.
+*/
+
+.tipo1{
+    color:rgb(0, 136, 255);
+}
+
+a.link_{ /* Esse está sendo prevalecido pelo CSS devido a específicação a. */
+    font-size:30px; 
+}
+
+.tipo2{
+    font-size: 100px;
+}

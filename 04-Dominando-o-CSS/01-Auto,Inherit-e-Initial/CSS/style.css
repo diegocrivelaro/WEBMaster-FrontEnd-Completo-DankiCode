@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*--------*/
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: gray;
+}
+
+.box2{
+    width: 250px;
+    background-color: brown;
+}
+
+.box > .box2 > span{
+    display: inline-block;
+    width: inherit; /* Ele herda o valor do pai */
+    height: inherit; /* Ele herda o valor do pai */
+    background: inherit; /* Ele herda o valor do pai */
+}

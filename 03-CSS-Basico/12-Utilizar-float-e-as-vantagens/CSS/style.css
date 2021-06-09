@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*------*/
+
+.pai {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: rgb(101, 101, 252);
+}
+
+.filho {
+    box-sizing: border-box;
+    float:left; /* Substituiu o display: inline-block; sem aplicar margens de 4px */
+    width: 640px;
+    height: 300px;
+    padding: 100px 0;
+    background-color: rgb(255, 47, 47);
+    border: 1px solid black;
+    text-align: center; /* Centralizando o texto */
+    font-size: 40px; /* Aumentando o texto */
+    color: white; /* Colocando o texto com a cor branca */
+}
+
+.clear {
+    clear: both; /* Limpar as flutuações. Assim o cáculo do padding PAI é feito de forma correta */
+}

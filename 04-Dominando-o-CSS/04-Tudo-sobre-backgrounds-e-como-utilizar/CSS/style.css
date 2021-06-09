@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0p;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*--------*/
+
+.bg{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    /*Backgrounds*/
+    background-color: rgb(88, 174, 255);
+    background-image: url(../imagens/danki_bg.jpg);
+    background-size: cover; /* "contain" não faz distorção na imagem. "cover" ajusta a imagem de acordo com o tamanho da .bg */
+    background-position: center;
+    background-repeat: no-repeat; /* Essa propriedade repete a imagem */
+}

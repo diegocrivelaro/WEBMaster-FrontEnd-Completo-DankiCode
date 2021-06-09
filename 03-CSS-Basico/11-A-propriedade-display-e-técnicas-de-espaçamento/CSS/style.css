@@ -1,0 +1,28 @@
+/* Resetando a margem e o padding da página */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center{
+    box-sizing: border-box; /* A largura irá permanecer em 1280px sem a somatória da borda e do padding */
+    width: 1290px; /* Largura */
+    margin: 5px auto; 
+    background-color: rgb(147, 255, 219);
+}
+
+.article{
+    width: 640px;
+    display: inline-block;
+    /* display: inline; O conteúdo inline não pode ter sua altura e largura setada, pois é definido automaticamente de acordo com o conteúdo. */
+    margin-right: -4px; /* Quando colocamos INLINE-BLOCK, automaticamente esse atributo coloca uma margin-right: 4px. Eu retirei essa margin-right */
+    vertical-align: top; /* Alinhamento da vertical. */
+}
+
+.article{ 
+    /* Bordas da esquerda estilizados */ 
+    border-left-style: solid; 
+    border-left-width: 5px;
+    border-left-color: black;
+}
+

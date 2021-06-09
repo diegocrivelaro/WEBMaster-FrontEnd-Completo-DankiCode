@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---------*/
+
+.lista{
+    margin: 0 100px;
+    list-style-type:decimal-leading-zero;
+    list-style-position: outside;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(34, 182, 182);
+}
+
+ul.lista2{
+    margin-top: 2px;
+    list-style-type:circle;
+    list-style-position:inside;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(35, 35, 182);
+}
+
+.um {
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+}
+
+.um > .dois{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.um > .dois > .tres{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100px;
+}
+
+/*---------*/
+
+table{
+    width: 900px;
+    margin: 0px auto;
+    border-collapse:collapse; /* Se houver bordas colidindo, haverá uma junção das bordas */
+}
+
+table tr td{
+    height: 50px;
+    vertical-align:middle; /* Irá centralizar o texto da tabela */
+    background-color: gray;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    font-size: x-large;
+}

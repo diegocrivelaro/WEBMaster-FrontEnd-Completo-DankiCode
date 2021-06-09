@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+/*---------*/
+
+/* EU QUERO A CLASSE MENU*/
+.menu{
+	width:900px;
+	margin: 20px auto;
+	background-color: rgb(93, 233, 93);
+	text-align: center;
+
+	/*
+	BRUTO:
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	SIMPLIFICADO:
+	margin: 10px;
+	*/
+
+	/*
+	ESPAÇAMENTO INTERNO: 
+	padding-top: 90px;
+	padding-bottom: 90px;
+	padding-left: 40px;
+	padding-right: 40px;
+	*/
+}
+
+.menu a{
+	font-size: 20px;
+	margin: 0px 20px;
+	text-decoration: none; 
+	color: red;
+	border: 3px solid rgb(89, 236, 89);
+	padding: 2px;
+}
+
+/*
+ESSA PARTE TERÁ PRIORIZAÇÃO NA HORA DE RENDERIZAR NO NAVEGADOR!!!
+ISSO ACONTECE DEVIDO Á ESPECiFICAÇÃO DA TAG.
+	→ EU QUERO A TAG <div> COM A CLASSE MENU.
+
+div.menu{
+	width: 400px;
+}
+*/
+
+
+/* 
+NESSE CASO A PONTUAÇÃO NÃO MUDOU, ENTÃO O NAVEGADOR IRÁ APLICAR O ESTILO NO ÚLTIMO ESTILO LIDO.
+
+.menu a{
+	color: black;
+}
+
+.menu > a{
+	color: green;
+}
+*/

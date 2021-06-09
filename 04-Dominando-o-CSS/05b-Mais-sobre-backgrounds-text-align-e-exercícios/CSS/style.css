@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*-----*/
+
+.bg{
+    width: 100%;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: aquamarine;
+    background-image: url(../imagens/sunset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 900px;
+    height: 2000px;
+    background-color: gray;
+}

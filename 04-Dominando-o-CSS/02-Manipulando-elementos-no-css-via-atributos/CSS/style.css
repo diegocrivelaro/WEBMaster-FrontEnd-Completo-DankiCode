@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*--------*/
+
+a[href="https://google.com"]{ /* Ataque apenas a tag A com o atributo "https://google.com" */
+    background-color: rgb(43, 241, 255);
+}
+
+
+a[href*="google"]{ /* Ataque a tag A que CONTÉM a palavra "google" */
+    font-size:x-large;
+}
+
+a[attr~="facebook"]{ /* Ataque a tag A que possuir a escrita "facebook" */
+    background-color: blueviolet;
+}
+
+a[attr|="udemy"]{ /* Ataque somente a tag A que iniciar com a palavra udemy separada por travessão */
+    background-color: darkgreen;
+}
+
+a[attr^="tu"]{ /* Ataque somente a tag A que iniciar com a sílaba "tu" */
+    background-color: deeppink;
+}
+
+a[attr$="gle"]{ /* Ataque somente a tag A que terminar com a sílaba "gle" */
+    background-color:greenyellow;
+}
+
+/*--------*/
+
+input[type="text"]{
+    background-color: aquamarine;
+}
+
+input[type="submit"]{
+    background-color: rgb(2, 255, 171);
+}

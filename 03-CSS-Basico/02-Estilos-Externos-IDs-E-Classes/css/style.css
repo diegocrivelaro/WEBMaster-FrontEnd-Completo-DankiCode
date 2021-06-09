@@ -1,0 +1,18 @@
+/*
+As classe são chamadas com .NOMEDACLASS 
+Já os IDs são chamados com #NOMEDAID
+*/
+
+#imagens > h1{
+	color: orange;
+	font-size: 50px; /* Definindo o tamanho do H1 */
+}
+
+#videos h1{
+	color: orange;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none; /* Removendo o sublinhado*/
+}
