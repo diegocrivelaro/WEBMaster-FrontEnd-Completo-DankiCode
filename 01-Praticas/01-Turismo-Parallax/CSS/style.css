@@ -1,0 +1,79 @@
+body{
+    height: 2000px;
+}
+
+/*--------------*/
+
+.backgrounds{
+    width: 100vw;
+    margin: 0 auto;
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.textos{
+    background-color: rgba(221, 226, 226, 0.438);
+    margin: 0px auto;
+    padding: 10px;
+    width: 50%;
+    text-align: justify;
+}
+
+.textos h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.textos p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 490;
+}
+
+/*--------------*/
+
+.imagem-reinounido{
+    background-image: url(../imagens/reinounido-unsplash.jpg);
+    background-position: 0 100%;
+}
+
+.textos-reinounido{
+    height: 230px;
+}
+
+/*--------------*/
+
+.imagem-franca{
+    background-image: url(../imagens/franca-unsplash.jpg);
+    background-position: 0 100%;
+}
+
+.textos-franca{
+    height: 230px;
+}
+
+/*--------------*/
+
+.imagem-portugal{
+    background-image: url(../imagens/portugal-unsplash.jpg);
+    background-position: 0 50%;
+}
+
+.textos-portugal{
+    height: 230px;
+}
+
+/*--------------*/
+
+.imagem-suica{
+    background-image: url(../imagens/suica-unsplash.jpg);
+    background-position: 0 100%;
+}
+
+.textos-suica{
+    height: 230px;
+}
