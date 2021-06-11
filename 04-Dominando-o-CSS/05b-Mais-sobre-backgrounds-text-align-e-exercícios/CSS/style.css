@@ -10,19 +10,30 @@ html, body{
 
 /*-----*/
 
-.bg{
+.box{
     width: 100%;
-    margin: 0 auto;
-    height: 50vh;
-    background-color: aquamarine;
-    background-image: url(../imagens/sunset.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin: 80px auto;
+    background-color:rgb(253, 199, 199);
+    text-align: center; /* Se o conteúdo que estiver dentro da box for "inline-block", ele será centralizado no meio. */
 }
 
-.box{
-    width: 900px;
-    height: 2000px;
-    background-color: gray;
+.item{
+    width: 33.3%;
+    margin-right: -4px;
+    display: inline-block;
+    background-color: rgb(162, 255, 255);
+}
+
+.item img{
+    width: 16%;
+}
+
+.item p{
+    background-color: brown;
+    display: inline-block;
+    text-align: left;
+}
+
+.ultimo{
+    margin-right: 0;
 }
