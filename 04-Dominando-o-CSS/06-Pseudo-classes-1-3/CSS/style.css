@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*-----------*/
+
+.teste, .teste1, .teste2{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: gray;
+}
+
+.teste:hover{ /* Quando o mouse passar em cima da div .teste, aplique um background vermelho */
+    background-color: brown;
+}
+
+.teste1:active{ /* Quando clicar na div .teste, aplique um background e aumente o tamanho. */
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    vertical-align: top;
+}
+
+.formulario:focus{ /* Quando você clica no formulário ele irá mudar de cor. */
+    background-color:darkorange;
+}
+
+.link:link{
+    color: red;
+}
