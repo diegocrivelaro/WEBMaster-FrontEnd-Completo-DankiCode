@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*-----------*/
+
+p:empty{ /* Pegue apenas os P que não possuem conteúdo */
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.p::after{ /* Pegue todos .P e depois... */
+    content: "Diego";
+    background-color: aquamarine;
+}
+
+.p::before{ /* Pegue todos .P e antes... */
+    content: "Nossa! ";
+}

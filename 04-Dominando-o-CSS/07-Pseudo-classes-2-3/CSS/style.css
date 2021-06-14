@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*-----------*/
+
+ul{
+    list-style-position: inside;
+}
+
+/*-----------*/
+
+ul li:nth-of-type(1){ /* Está propriedade irá atacar o primeiro TIPO de LI */
+    color: brown;
+}
+
+ul li:nth-child(3){ /* Está propriedade irá atacar o terceiro filho do UL */
+    color: blue;
+}

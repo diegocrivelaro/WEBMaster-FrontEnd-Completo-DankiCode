@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*-----------*/
+
+.box{
+    width: 100%;
+}
+
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+/*-----------*/
+
+.box > div:last-of-type{ /* Pegue o último elemento do tipo DIV */
+    background-color: aquamarine;
+}
+
+.box > p:last-of-type{ /* Pegue o último elemento do tipo P */
+    color: brown;
+}
+
+.box > div:last-of-type p{ /* Pegue a DIV dentro da BOX, porém, pegue somente a última DIV e ataque o P da última DIV. */
+    color: rgb(17, 0, 255);
+}
