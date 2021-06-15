@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*-------*/
+
+.parent{
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+    background-color: brown;
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    margin: 20px 0;
+}
+
+.parent p:first-of-type{ /* Ataque o primeiro paragráfo do tipo P */
+    color: orange;
+    font-weight: 900;
+}
+
+.parent p:last-of-type{ /* Ataque o último paragráfo do tipo P */
+    color: orangered;
+    font-weight: 900;
+}
+
