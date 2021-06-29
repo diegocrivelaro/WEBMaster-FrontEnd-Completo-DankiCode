@@ -1,0 +1,16 @@
+form {
+    text-align: center;
+    background-color: #7155d9;
+    padding: 3rem;
+
+    font-size: 2rem;
+}
+
+form select {
+    font-size: 2rem;
+    width: 22.0rem;
+    height: 4rem;
+
+    appearance: none; /* O valor em none retira todos estilos da caixa de seleção */
+    -moz-appearance: none; /* Prefixo do Mozila! Essa propriedade será renderizada apenas pelos motores mozila. */
+}

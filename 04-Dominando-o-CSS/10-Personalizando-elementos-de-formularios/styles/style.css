@@ -1,0 +1,22 @@
+/*
+O input do tipo file não há forma de personalizar utilizando o CSS3! Então é comumente comum a criação de um label com relação ao input, e no CSS colocamos um display none no input. A partir de agora, é só personalizar o label como um elemento normal.  
+*/
+
+input[type="file"] {
+    display: none;
+}
+
+form label {
+    display: block;
+    margin: 40px auto;
+    width: 10rem;
+    height: 10rem;
+
+
+    text-align: center;
+    line-height: 10rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    background-color: #7155d9;
+}
