@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Array e objetos</title>
+    </head>
+
+    <body>
+        <h1>Quarto código de JavaScript</h1>
+        
+        <script>
+            window.onload = function(){
+                /* ARRAY */
+                var nome = []; /* <--- Array - Vários valores dentro de uma variável */
+                nome[1] = 'Diego';
+                nome[2] = 'João';
+                nome[3] = 'Marcos';
+                console.log(nome[1]);
+
+                /* OBJETOS */
+                var pessoa = {} /* <--- Objeto - Juntar várias informações em um lugar só */
+                pessoa.nome = [] /* Um objeto com um array dentro! */
+                pessoa.idade = [] /* Um objeto com um array dentro! */
+
+                pessoa.nome[0] = "Diego";
+                pessoa.idade[0] = 18;
+
+                pessoa.nome[1] = "Marcos";
+                pessoa.idade[1] = 20;
+
+                console.log(pessoa)
+            }
+        </script>
+    </body>
+</html>
