@@ -5,7 +5,7 @@ window.onload = function(){
     == - Igual
     === - idêntico (Mesmo valor e mesmo tipo de variável)
     != - Diferente
-    !== - Diferente (Diferente valor e diferente tipo de variável)
+    !== - Diferente (Diferente valor ou diferente tipo de variável)
     > - Maior
     < - Menor
     >= - Maior e igual
@@ -57,7 +57,7 @@ window.onload = function(){
     /* VERIFICAÇÃO 5 */
     var idade_02 = 10;
 
-    if(idade_02 !== "11"){
+    if(idade_02 !== "10"){
         alert("É DIFERENTE EM VALOR E TIPO DE VARIÁVEL");
     }
 
