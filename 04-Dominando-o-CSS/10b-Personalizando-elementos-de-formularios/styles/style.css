@@ -11,6 +11,16 @@ form select {
     width: 22.0rem;
     height: 4rem;
 
+    background-image: url('../assets/seta-para-baixo.png');
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+
     appearance: none; /* O valor em none retira todos estilos da caixa de seleção */
+    -webkit-appearance: none; /* Prefixo do Chrome e Safari! Essa propriedade será renderizada apenas pelos motores mozila. */
     -moz-appearance: none; /* Prefixo do Mozila! Essa propriedade será renderizada apenas pelos motores mozila. */
+}
+
+form select::-ms-expand { /* Remover o estilo padrão do select no Internet Explorer */
+    display: none;
 }
