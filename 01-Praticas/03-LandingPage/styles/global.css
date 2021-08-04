@@ -1,0 +1,14 @@
+/* CONFIGURAÇÃO */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 35px;
+}
+
+.container-height {
+    height: 100%;
+    margin: 0 35px;
+}

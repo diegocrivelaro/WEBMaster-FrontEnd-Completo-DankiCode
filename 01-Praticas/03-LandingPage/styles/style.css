@@ -1,0 +1,30 @@
+/* CABEÇALHO */
+header {
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    height: 90px;
+
+    background-color: #212343;
+}
+
+/* PRINCIPAL */
+/* BACKGROUND */
+main > .container-banner {
+    width: 100vw;
+    height: 558px;
+
+    background-image: url("../assets/img/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main > .container-banner > .container-height > .box-form {
+    width: 400px;
+    height: 100%;
+    float: right;
+
+    background-color: white;
+}
