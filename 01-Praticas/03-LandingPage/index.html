@@ -10,6 +10,11 @@
         <link rel="stylesheet" href="styles/global.css">
         <link rel="stylesheet" href="styles/style.css">
 
+        <!-- FONTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
         <!-- TÍTULO -->
         <title>DankiCode</title>
     </head>
@@ -26,7 +31,33 @@
         <main>
             <div class="container-banner">
                 <div class="container-height">
-                    <div class="box-form"></div>
+                    <div class="box-form">
+                        <h2>
+                            Preencha o formulário e inicie a sua caminhada para virar um WebMaster
+                        </h2>
+                        <form>
+                            <div class="input-container">
+                                <span>Nome*</span>
+                                <input type="text" name="nome" required>
+                            </div>
+
+                            <div class="input-container">
+                                <span>E-email*</span>
+                                <input type="email" name="e-mail" required>
+                            </div>
+
+                            <div class="input-container">
+                                <span>Telefone*</span>
+                                <input type="tel" name="telefone" required>
+                            </div>
+                    
+                            <p class="atencao">* Campos obrigatórios!</p>
+
+                            <div class="botão-submit">
+                                <input type="submit" name="enviar" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>

@@ -8,9 +8,10 @@ header {
 
     background-color: #212343;
 }
+/*------------------------------ */
 
-/* PRINCIPAL */
-/* BACKGROUND */
+
+/* PRINCIPAL - BACKGROUND */
 main > .container-banner {
     width: 100vw;
     height: 558px;
@@ -20,11 +21,86 @@ main > .container-banner {
     background-size: cover;
     background-position: center;
 }
+/*------------------------------ */
 
+
+/* PRINCIPAL - FORMULÁRIO */
 main > .container-banner > .container-height > .box-form {
     width: 400px;
-    height: 100%;
+    height: calc(100% + 30px);
+    padding: 10px;
     float: right;
 
+    position: relative;
+    top: -15px;
+
     background-color: white;
+    border: 8px solid #ccc;
 }
+
+main .box-form > h2 {
+    font-weight: normal;
+    font-size: 22px;
+
+    color: #999999;
+}
+
+
+.input-container {
+    margin: 20px 0 0 0;
+}
+
+/* Estilo no SPAN e no P do formulário */
+.input-container span, form > p {
+    display: inline-block;
+    width: 100%;
+
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.box-form > form > p {
+    margin: 20px 0;
+}
+
+/* Estilo do botão */
+.input-container input {
+    width: 344px;
+    height: 55px;
+    margin: 8px 0 0 0;
+    border: 1px solid #ccc;
+}
+
+.box-form > form > div > input[type="submit"] {
+    display: inline-block;
+
+    width: 280px;
+    height: 56px;
+    margin: 0 auto;
+
+    font-size: 25px;
+    color: white;
+    background-color: #363a6d;
+
+    cursor: pointer;
+
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #4a5097;
+}
+
+.box-form > form > .botão-submit > input[type="submit"]:hover {
+    background-color: #323665;
+}
+
+/* Alinhamento do botão */
+.box-form > form > .botão-submit {
+    text-align: center;
+}
+
+/* Botão ao ser clicado perderá seu outline preto! */
+.input-container input:focus {
+    outline: none;
+}
+/*------------------------------ */

@@ -1,6 +1,8 @@
 /* CONFIGURAÇÃO */
+@charset "UTF-8";
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans';
 }
 
 .container {
