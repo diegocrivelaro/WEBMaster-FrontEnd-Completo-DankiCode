@@ -9,7 +9,7 @@
 - [X] Introdução/Conceitos e Configurando Ambiente de Trabalho
 - [X] Entendendo o HTML
 - [X] Iniciando com o CSS 
-- [ ] Dominando o CSS
+- [X] Dominando o CSS
 - [ ] Design Responsivo e Projeto Prático #1
 - [ ] HTML5 e as Novidades
 - [ ] Conhecendo na Prática o CSS3
