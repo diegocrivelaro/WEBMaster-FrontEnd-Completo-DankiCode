@@ -1,0 +1,10 @@
+header {
+    width: 100%;
+    height: 60px;
+
+    background-color: #212343;
+}
+
+header > div > a > img {
+    margin: 15px;
+}

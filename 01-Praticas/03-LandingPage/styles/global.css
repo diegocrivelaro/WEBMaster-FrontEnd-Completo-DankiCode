@@ -5,12 +5,11 @@
     font-family: 'Open Sans';
 }
 
-.container {
-    width: 100vw;
-    margin: 0 35px;
+html, body {
+    height: 100%;    
 }
 
-.container-height {
-    height: 100%;
-    margin: 0 35px;
+.center {
+    width: 1280px;
+    margin: 0 auto;
 }
