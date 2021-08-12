@@ -1,0 +1,11 @@
+.box {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+}
+
+.box-1 {
+    width: 30%;
+    padding-top: 50%; /* O PADDING não respeita o tamanho do pai */
+    background-color: blueviolet;
+}
