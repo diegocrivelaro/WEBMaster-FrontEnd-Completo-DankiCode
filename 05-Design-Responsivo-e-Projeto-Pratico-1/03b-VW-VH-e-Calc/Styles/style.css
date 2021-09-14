@@ -1,0 +1,6 @@
+.box {
+    width: calc((100% / 3) + 90px);
+    height: 90px;
+
+    background-color: antiquewhite;
+}

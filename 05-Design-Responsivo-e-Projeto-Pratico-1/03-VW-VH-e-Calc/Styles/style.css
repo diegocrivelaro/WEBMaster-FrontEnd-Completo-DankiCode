@@ -1,0 +1,17 @@
+aside {
+    width: 300px;
+    height: 100%;
+
+    float: left;
+
+    background-color: antiquewhite;
+}
+
+.content {
+    width: calc(100% - 300px);
+    height: 100%;
+
+    float: left;
+
+    background-color: aquamarine;
+}
