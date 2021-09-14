@@ -1,0 +1,36 @@
+.container {
+    width: 780px;
+    max-width: 780px;
+
+    margin: 20px auto;
+    padding: 30px 30px;
+    border: 3px solid black;
+}
+
+.img-wraper {
+    width: 33.3%;
+    padding: 33.3% 0 0 0;
+    float: left;
+    position: relative;
+    
+    background-color: gray;
+    border: 10px solid white;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url(/05-Design-Responsivo-e-Projeto-Pratico-1/02-Criando-uma-galeria-utilizando-responsivo/images/wallpaper.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clear {
+    clear: both;
+}
